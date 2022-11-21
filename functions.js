@@ -20,11 +20,9 @@ const filterNumbers = (array) => {
 const generateEmailAddress = (pArray) => {
   let mailArray = pArray.map((personName) => {
    return personName.toLowerCase() + "@gmail.com"
-    
   })
   return mailArray
 }
-generateEmailAddress(['Huseyin', 'Ahmet', 'Mehmet'])
 export {
   findTheNumberOfOddNumbers,
   getIndexOfFalseItem,
